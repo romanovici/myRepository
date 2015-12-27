@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.flake{
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+.fall{
+    animation:fall 7s ;
+}
+
+@keyframes fall{
+    from{ top:-50px;}
+    to{ top:1000px;}
+}
